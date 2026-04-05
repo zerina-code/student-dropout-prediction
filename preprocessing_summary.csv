@@ -1,0 +1,8 @@
+Step,Action,Result
+Original Data,Loaded UCI dataset,4424 records × 37 features
+Feature Engineering,Created 12 new features,4365 records × 50 features
+Feature Selection,Removed 2 redundant features,4365 records × 47 features
+Train-Test Split,80/20 stratified split,Train: 3492 | Test: 873
+SMOTE (Training Only),Balanced training set classes,Train: 5244 (balanced)
+StandardScaler,"Scaled features (mean=0, std=1)","Ready for SVM, Neural Networks, K-Means"
+MinMaxScaler,"Scaled features (range=[0,1])",Alternative for Neural Networks

@@ -1,0 +1,15 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Large binary/numpy files
+*.npy
+*.pkl
+
+# Temp Word files
+~$*.docx
+
+# macOS
+.DS_Store
+
+# BackupCopy folder
+BackUpCopy/
